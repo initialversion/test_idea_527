@@ -1,5 +1,5 @@
 class Review < ApplicationRecord
-  mount_uploader :photos, PhotoUploader
+  mount_uploader :photo, PhotoUploader
 
   # Direct associations
 

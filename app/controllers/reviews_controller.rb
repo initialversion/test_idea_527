@@ -25,7 +25,7 @@ class ReviewsController < ApplicationController
     @review.rating = params[:rating]
     @review.business_id = params[:business_id]
     @review.user_id = params[:user_id]
-    @review.photos = params[:photos]
+    @review.photo = params[:photo]
 
     save_status = @review.save
 
@@ -56,7 +56,7 @@ class ReviewsController < ApplicationController
     @review.rating = params[:rating]
     @review.business_id = params[:business_id]
     @review.user_id = params[:user_id]
-    @review.photos = params[:photos]
+    @review.photo = params[:photo]
 
     save_status = @review.save
 
