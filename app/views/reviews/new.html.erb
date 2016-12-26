@@ -54,13 +54,13 @@
         <%= select_tag(:user_id, options_from_collection_for_select(User.all, :id, :name, @review.user_id), :class => "form-control") %>
       </div>
 
-      <!-- Label and input for photos -->
+      <!-- Label and input for photo -->
       <div class="form-group">
-        <label for="photos" class="control-label">
-          Photos
+        <label for="photo" class="control-label">
+          Photo
         </label>
 
-        <input type="text" id="photos" name="photos" placeholder="Photos" class="form-control" value="<%= @review.photos %>">
+        <input type="file" id="photo" name="photo" class="form-control">
       </div>
 
       <button class="btn btn-success">

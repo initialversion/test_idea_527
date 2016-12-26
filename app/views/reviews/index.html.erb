@@ -88,7 +88,7 @@
         <th>Rating</th>
         <th>Business</th>
         <th>User</th>
-        <th>Photos</th>
+        <th>Photo</th>
         <th>Actions</th>
       </tr>
 
@@ -110,7 +110,7 @@
             </a>
           <% end %>
         </td>
-        <td><img src='<%= review.photos %>' class='img-responsive'></td>
+        <td><img src='<%= review.photo %>' class='img-responsive'></td>
         <td>
           <a href="/reviews/<%= review.id %>" class="btn btn-primary">Show</a>
           <a href="/reviews/<%= review.id %>/edit" class="btn btn-warning">Edit</a>

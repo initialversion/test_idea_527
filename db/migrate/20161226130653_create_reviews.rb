@@ -5,7 +5,7 @@ class CreateReviews < ActiveRecord::Migration
       t.integer :rating
       t.integer :business_id
       t.integer :user_id
-      t.string :photos
+      t.string :photo
 
       t.timestamps
 
